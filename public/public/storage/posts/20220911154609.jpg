@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+		<script type="text/javascript">
+		window.APP_DC = "1661083466";
+		window.APP_LANG = "ja";
+	</script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<base href="http://localhost/miracle_office/mccoy-ec-base/" />
+	<link rel="icon" href="http://localhost/miracle_office/mccoy-ec-base/images/ybase-favico.png?_dc=1661083466" type="image/x-icon" />
+	<link rel="shortcut icon" href="http://localhost/miracle_office/mccoy-ec-base/images/ybase-favico.png?_dc=1661083466" type="image/x-icon" />
+	
+	<!--  -->
+		<!-- customcss -->
+		<link rel="stylesheet" type="text/css" href="http://localhost/miracle_office/mccoy-ec-base/css/custom.css?_dc=1661083466"/>
+		<!--css for sprites-->
+		<link rel="stylesheet" type="text/css" href="http://localhost/miracle_office/mccoy-ec-base/css/icons_b.css?_dc=1661083466"/>
+		<link rel="stylesheet" type="text/css" href="http://localhost/miracle_office/mccoy-ec-base/css/icons_g.css?_dc=1661083466"/>
+		<link rel="stylesheet" type="text/css" href="http://localhost/miracle_office/mccoy-ec-base/css/icons_w.css?_dc=1661083466"/>
+		<!-- include extjs framework file -->
+			<script type="text/javascript" src="http://localhost/frameworks/ext-4.2.1/ext-all-debug.js"></script>
+		<script>
+		var Ext = Ext || {};
+		Ext.project_name = "selmybase";
+	</script>
+			<script type="text/javascript" src="http://localhost/miracle_office/mccoy-ec-base/bizlayer/../ext/ux/upload/plupload/js/plupload.js"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/mccoy-ec-base/bizlayer/../ext/ux/upload/plupload/js/plupload.html4.js"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/mccoy-ec-base/bizlayer/../ext/ux/upload/plupload/js/plupload.html5.js"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/mccoy-ec-base/bizlayer/../ext/ux/upload/plupload/js/plupload.flash.js"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/mccoy-ec-base/bizlayer/../ext/ux/upload/plupload/js/plupload.silverlight.js"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/mccoy-ec-base/bizlayer/app/getUserDataObj?lang=ja"></script> 
+				<script type="text/javascript" src="http://localhost/miracle_office/mccoy-ec-base/screen_components/selmybaseProductEntryPanelFormComponents_50-ja.js?lang=ja&amp;_dc=83"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/mccoy-ec-base/screen_components/selmybaseOrderEntryPanelFormComponents_50-ja.js?lang=ja&amp;_dc=75"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/mccoy-ec-base/screen_components/selmybaseMemberEntryPanelFormComponents_50-ja.js?lang=ja&amp;_dc=58"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/mccoy-ec-base/screen_components/selmybaseCompanyEntryPanelFormComponents_50-ja.js?lang=ja&amp;_dc=53"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/mccoy-ec-base/screen_components/selmybaseUserEntryPanelFormComponents_50-ja.js?lang=ja&amp;_dc=59"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/mccoy-ec-base/screen_components/selmybaseSupplierWindowFormComponents_50-ja.js?lang=ja&amp;_dc=53"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/mccoy-ec-base/screen_components/selmybaseCommunicationEntryPanelFormComponents_50-ja.js?lang=ja&amp;_dc=53"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/mccoy-ec-base/screen_components/selmybaseMailTemplateEntryPanelFormComponents_50-ja.js?lang=ja&amp;_dc=54"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/mccoy-ec-base/screen_components/selmybaseSupervisorSelectionWindowFormComponents_50-ja.js?lang=ja&amp;_dc=53"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/mccoy-ec-base/screen_components/selmybaseBatchPaymentInvoiceWinFormComponents_50-ja.js?lang=ja&amp;_dc=53"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/mccoy-ec-base/screen_components/selmybaseBlogCategoryEntryFormComponents_50-ja.js?lang=ja&amp;_dc=53"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/mccoy-ec-base/screen_components/selmybaseBlogNewsEntryFormComponents_50-ja.js?lang=ja&amp;_dc=53"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/mccoy-ec-base/screen_components/selmybaseCmsPostEntryPanelFormComponents_50-ja.js?lang=ja&amp;_dc=53"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/mccoy-ec-base/screen_components/selmybaseBlockEntryFormComponents_50-ja.js?lang=ja&amp;_dc=54"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/mccoy-ec-base/screen_components/selmybaseCsvFieldEntryPanelFormComponents_50-ja.js?lang=ja&amp;_dc=53"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/mccoy-ec-base/screen_components/selmybaseCsvFieldMappingEntryPanelFormComponents_50-ja.js?lang=ja&amp;_dc=54"></script>
+
+		<script type="text/javascript" src="http://localhost/miracle_office/mccoy-ec-base/screen_components/selmybasePagesEntryFormComponents_50-ja.js?lang=ja&amp;_dc=59"></script>
+
+		<link rel="stylesheet" type="text/css" href="http://localhost/miracle_office/mccoy-ec-base//ext/ux/css/ClearButton.css?_dc=1661083466"/>
+				<title>SELMY</title>
+	</head>
+<body class="login">
+			<div id="app_info" app_url="http://localhost/miracle_office/mccoy-ec-base/" style="display:none;"></div>
+		<script type="text/javascript">
+			var app_info = document.getElementById('app_info').attributes;
+			Ext.APP_URL = app_info['app_url'].value;
+			Ext.APP_VARS = {
+				"FRONTEND_IMAGE_URL":"http://base.mccoy.local.com/filebox/",
+				"PRINT_URL":"?app_id=",
+				"REPORT_URL":"?app_id="
+			}
+		</script>
+			
+<h2>Error 500</h2>
+
+<div class="error">
+readfile(): Filename cannot be empty</div></body>
+</html>

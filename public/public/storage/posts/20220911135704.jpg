@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+		<script type="text/javascript">
+		window.APP_DC = "1662112026";
+		window.APP_LANG = "ja";
+	</script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<base href="http://localhost/miracle_office/25h_base/" />
+	<link rel="icon" href="http://localhost/miracle_office/25h_base/images/ybase-favico.png?_dc=1662112026" type="image/x-icon" />
+	<link rel="shortcut icon" href="http://localhost/miracle_office/25h_base/images/ybase-favico.png?_dc=1662112026" type="image/x-icon" />
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/easymde/dist/easymde.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/easymde/dist/easymde.min.js"></script>
+		
+	<!--  -->
+		<!-- customcss -->
+	
+		<!--css for sprites-->
+		<link rel="stylesheet" type="text/css" href="http://localhost/miracle_office/25h_base/css/icons_b.css?_dc=1662112026"/>
+		<link rel="stylesheet" type="text/css" href="http://localhost/miracle_office/25h_base/css/icons_g.css?_dc=1662112026"/>
+		<link rel="stylesheet" type="text/css" href="http://localhost/miracle_office/25h_base/css/icons_w.css?_dc=1662112026"/>
+		<!-- include extjs framework file -->
+			<script type="text/javascript" src="http://110.44.126.55/frameworks/extjs-4.2.1/ext-all-debug.js"></script>
+		<script>
+		var Ext = Ext || {};
+		Ext.project_name = "25Hours";
+	</script>
+			<script type="text/javascript" src="http://localhost/miracle_office/25h_base/bizlayer/../ext/ux/upload/plupload/js/plupload.js"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/25h_base/bizlayer/../ext/ux/upload/plupload/js/plupload.html4.js"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/25h_base/bizlayer/../ext/ux/upload/plupload/js/plupload.html5.js"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/25h_base/bizlayer/../ext/ux/upload/plupload/js/plupload.flash.js"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/25h_base/bizlayer/../ext/ux/upload/plupload/js/plupload.silverlight.js"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/25h_base/bizlayer/app/getUserDataObj?lang=ja"></script> 
+				<script type="text/javascript" src="http://localhost/miracle_office/25h_base/screen_components/25HoursProductEntryPanelFormComponents_50-ja.js?lang=ja&amp;_dc=231"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/25h_base/screen_components/25HoursOrderEntryPanelFormComponents_50-ja.js?lang=ja&amp;_dc=99"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/25h_base/screen_components/25HoursMemberEntryPanelFormComponents_50-ja.js?lang=ja&amp;_dc=82"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/25h_base/screen_components/25HoursCompanyEntryPanelFormComponents_50-ja.js?lang=ja&amp;_dc=77"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/25h_base/screen_components/25HoursUserEntryPanelFormComponents_50-ja.js?lang=ja&amp;_dc=83"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/25h_base/screen_components/25HoursSupplierWindowFormComponents_50-ja.js?lang=ja&amp;_dc=77"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/25h_base/screen_components/25HoursCommunicationEntryPanelFormComponents_50-ja.js?lang=ja&amp;_dc=77"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/25h_base/screen_components/25HoursMailTemplateEntryPanelFormComponents_50-ja.js?lang=ja&amp;_dc=80"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/25h_base/screen_components/25HoursSupervisorSelectionWindowFormComponents_50-ja.js?lang=ja&amp;_dc=77"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/25h_base/screen_components/25HoursBatchPaymentInvoiceWinFormComponents_50-ja.js?lang=ja&amp;_dc=77"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/25h_base/screen_components/25HoursBlogCategoryEntryFormComponents_50-ja.js?lang=ja&amp;_dc=77"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/25h_base/screen_components/25HoursBlogNewsEntryFormComponents_50-ja.js?lang=ja&amp;_dc=77"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/25h_base/screen_components/25HoursCmsPostEntryPanelFormComponents_50-ja.js?lang=ja&amp;_dc=77"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/25h_base/screen_components/25HoursBlockEntryFormComponents_50-ja.js?lang=ja&amp;_dc=78"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/25h_base/screen_components/25HoursCsvFieldEntryPanelFormComponents_50-ja.js?lang=ja&amp;_dc=77"></script>
+		<script type="text/javascript" src="http://localhost/miracle_office/25h_base/screen_components/25HoursCsvFieldMappingEntryPanelFormComponents_50-ja.js?lang=ja&amp;_dc=78"></script>
+
+		<script type="text/javascript" src="http://localhost/miracle_office/25h_base/screen_components/25HoursPagesEntryFormComponents_50-ja.js?lang=ja&amp;_dc=83"></script>
+		
+		<link rel="stylesheet" type="text/css" href="http://localhost/miracle_office/25h_base//ext/ux/css/ClearButton.css?_dc=1662112026"/>
+	
+			<title>25Hours</title>
+		<link rel="stylesheet" type="text/css" href="http://localhost/miracle_office/25h_base/css/custom.css?_dc=1662112026"/>
+
+</head>
+<body class="login">
+			<div id="app_info" app_url="http://localhost/miracle_office/25h_base/" style="display:none;"></div>
+		<script type="text/javascript">
+			var app_info = document.getElementById('app_info').attributes;
+			Ext.APP_URL = app_info['app_url'].value;
+			Ext.APP_VARS = {
+				"FRONTEND_IMAGE_URL":"http://base.25h.localhost.com/filebox/",
+				"PRINT_URL":"?app_id=",
+				"REPORT_URL":"?app_id="
+			}
+		</script>
+			
+<h2>Error 500</h2>
+
+<div class="error">
+readfile(): Filename cannot be empty</div></body>
+<!-- added markdown editor cdn links -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/easymde/dist/easymde.min.css" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/easymde/dist/easymde.min.js" crossorigin="anonymous"></script>
+</html>
